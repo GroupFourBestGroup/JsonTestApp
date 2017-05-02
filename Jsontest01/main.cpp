@@ -5,8 +5,6 @@
 #include "rapidjson/reader.h"
 #include "rapidjson/stream.h"
 
-
-
 using namespace rapidjson;
 
 class Handler : public BaseReaderHandler<UTF8<> > {
